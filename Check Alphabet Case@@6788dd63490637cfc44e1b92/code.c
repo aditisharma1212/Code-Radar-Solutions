@@ -1,6 +1,7 @@
-int main() {
+ #include<stdio.h>
+ int main() {
     char ch;
-    scanf(" %c", &ch); 
+    scanf(" %c", &ch); // Notice the space before %c to avoid reading any leftover newline character
     if (ch >= 'a' && ch <= 'z') {
         printf("Lowercase");
     } else if (ch >= 'A' && ch <= 'Z') {
