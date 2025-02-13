@@ -9,6 +9,6 @@ int main(){
         printf("Divisible by 5");
     }
     else{
-        printf("Divisible by 3");
+        printf("Divisible by both");
     }
 }
