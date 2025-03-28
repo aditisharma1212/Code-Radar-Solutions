@@ -7,7 +7,7 @@ int main() {
             if ((i + j) <= rows) {
                 printf(" "); 
             } else {
-                printf("* "); 
+                printf("*"); 
             }
         }
         printf("\n");
